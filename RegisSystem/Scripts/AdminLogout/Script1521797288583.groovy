@@ -32,7 +32,15 @@ WebUI.sendKeys(findTestObject('AdminLogout/input_input_1'), Keys.chord(Keys.ENTE
 
 WebUI.click(findTestObject('AdminLogout/button_Sign in'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/admin/index', false)
+
 WebUI.click(findTestObject('AdminLogout/button_Log out'))
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/admin', false)
 
 WebUI.closeBrowser()
 

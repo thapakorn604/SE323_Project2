@@ -32,7 +32,15 @@ WebUI.selectOptionByValue(findTestObject('LecturerSeeCourseHistory/select_Studen
 
 WebUI.click(findTestObject('LecturerSeeCourseHistory/button_Sign in'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index', false)
+
 WebUI.click(findTestObject('LecturerSeeCourseHistory/a_History'))
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history', false)
 
 WebUI.closeBrowser()
 

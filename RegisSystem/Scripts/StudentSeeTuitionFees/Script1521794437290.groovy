@@ -30,7 +30,15 @@ WebUI.setText(findTestObject('StudentSeeTuitionFees/input_input_1'), '1234')
 
 WebUI.click(findTestObject('StudentSeeTuitionFees/button_Sign in'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/index', false)
+
 WebUI.click(findTestObject('StudentSeeTuitionFees/a_Payment'))
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/payment', false)
 
 WebUI.closeBrowser()
 

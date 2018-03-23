@@ -32,5 +32,9 @@ WebUI.selectOptionByValue(findTestObject('StudentLogin/select_StudentLecturer'),
 
 WebUI.click(findTestObject('StudentLogin/button_Sign in'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index', false)
+
 WebUI.closeBrowser()
 

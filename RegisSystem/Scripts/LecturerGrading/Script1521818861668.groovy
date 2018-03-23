@@ -24,17 +24,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/')
 
-WebUI.setText(findTestObject('StudentSearchCourse/input_input'), 'thanawat_lukuan@cmu.ac.th')
+WebUI.setText(findTestObject('LecturerGrading/input_input'), 'Noppon_coosri@cmu.ac.th')
 
-WebUI.setText(findTestObject('StudentSearchCourse/input_input_1'), '1234')
+WebUI.setText(findTestObject('LecturerGrading/input_input_1'), '123456789')
 
-WebUI.click(findTestObject('StudentSearchCourse/button_Sign in'))
+WebUI.selectOptionByValue(findTestObject('LecturerGrading/select_StudentLecturer'), 'Lecturer', true)
 
-WebUI.click(findTestObject('StudentSearchCourse/a_Enroll Courses'))
+WebUI.click(findTestObject('LecturerGrading/button_Sign in'))
 
-WebUI.setText(findTestObject('StudentSearchCourse/input_input_2'), 'Object Oriented Programming')
+url = WebUI.getUrl()
 
-WebUI.click(findTestObject('StudentSearchCourse/button_Search'))
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index', false)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('LecturerGrading/a_Grading'))
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading', false)
+
+WebUI.click(findTestObject('LecturerGrading/button_Save All'))
 

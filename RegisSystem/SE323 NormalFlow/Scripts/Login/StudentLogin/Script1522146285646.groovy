@@ -32,17 +32,3 @@ WebUI.click(findTestObject('StudentLogin/button_Sign in'))
 
 WebUI.closeBrowser()
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/')
-
-WebUI.setText(findTestObject('LecturerLogin/input_input'), 'lecturer')
-
-WebUI.setText(findTestObject('LecturerLogin/input_input_1'), 'lecturer')
-
-WebUI.selectOptionByValue(findTestObject('LecturerLogin/select_StudentLecturer'), 'Lecturer', true)
-
-WebUI.click(findTestObject('LecturerLogin/button_Sign in'))
-
-WebUI.closeBrowser()
-

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input</name>
    <tag></tag>
-   <elementGuidId>86cd8606-4798-4108-99d0-1336f210e923</elementGuidId>
+   <elementGuidId>515b0f96-bdf0-4235-8fbf-5813a29f6862</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>S</value>
+      <value>s</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

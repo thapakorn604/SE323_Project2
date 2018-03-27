@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input</name>
    <tag></tag>
-   <elementGuidId>8ed801d9-b912-4031-8545-decfa187ee46</elementGuidId>
+   <elementGuidId>697003e8-597d-4be2-96af-7ac3d093b1ee</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>number</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,13 +32,13 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Admin ID e.g.582115015</value>
+      <value>e.g 953234</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;section&quot;]/div[@class=&quot;column is-half is-offset-one-quarter&quot;]/div[@class=&quot;card is-padding&quot;]/div[@class=&quot;container is-fluid&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

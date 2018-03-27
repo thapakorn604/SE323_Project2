@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>2e7a18a2-6e5b-43be-8d53-b5fbca1f0ef3</elementGuidId>
+   <elementGuidId>bcaf9dfa-3d3a-4ce6-b59e-7660aa3c3354</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

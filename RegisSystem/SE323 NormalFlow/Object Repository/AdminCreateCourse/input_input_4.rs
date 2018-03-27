@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input_4</name>
    <tag></tag>
-   <elementGuidId>23e2b9fe-b768-4f92-a212-a2ef1a31b347</elementGuidId>
+   <elementGuidId>fc22b530-6c1c-4841-938e-14f3cbb359a0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>number</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,13 +32,13 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>e.g. Thapakorn Tuwaemuesa,Thanawat Lukuan</value>
+      <value>e.g.3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-7&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

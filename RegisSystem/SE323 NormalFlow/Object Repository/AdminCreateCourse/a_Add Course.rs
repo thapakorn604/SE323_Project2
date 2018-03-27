@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Add Course</name>
    <tag></tag>
-   <elementGuidId>2675df82-d340-460b-a45e-241a418cfb0f</elementGuidId>
+   <elementGuidId>0aac3955-0192-482a-8d86-74b4da56f469</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

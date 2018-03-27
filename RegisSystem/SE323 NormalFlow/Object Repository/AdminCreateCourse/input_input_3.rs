@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input_3</name>
    <tag></tag>
-   <elementGuidId>1275cb51-fa34-464e-aceb-513fdc65fef4</elementGuidId>
+   <elementGuidId>28f4c567-2214-4d7b-9285-307c287992ca</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>number</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>e.g. Computer Programming</value>
+      <value>e.g.50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

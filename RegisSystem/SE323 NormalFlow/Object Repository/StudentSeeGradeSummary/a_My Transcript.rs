@@ -3,7 +3,7 @@
    <description></description>
    <name>a_My Transcript</name>
    <tag></tag>
-   <elementGuidId>cad211c1-479d-41d2-bdb6-b1b80ec87983</elementGuidId>
+   <elementGuidId>87612fa5-241a-4fbd-9c42-23a4912299cc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input</name>
    <tag></tag>
-   <elementGuidId>27e674f5-fb63-4b8e-8853-eee7934e7170</elementGuidId>
+   <elementGuidId>e19d2df1-8208-487c-b2e0-5e3d2dcc1c6f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,17 +28,17 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>value</name>
       <type>Main</type>
-      <value>e-mail e.g. xxx@cmu.ac.th</value>
+      <value>ถ</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;section&quot;]/div[@class=&quot;column is-half is-offset-one-quarter&quot;]/div[@class=&quot;card is-padding&quot;]/div[@class=&quot;container is-fluid&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column&quot;]/div[@class=&quot;box&quot;]/div[1]/table[@class=&quot;table is-fullwidth center-table&quot;]/tr[2]/td[4]/input[@class=&quot;input&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

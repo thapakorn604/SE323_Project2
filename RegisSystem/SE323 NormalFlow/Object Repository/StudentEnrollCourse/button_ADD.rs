@@ -3,7 +3,7 @@
    <description></description>
    <name>button_ADD</name>
    <tag></tag>
-   <elementGuidId>6003d8f6-5b51-43f2-bb34-4412a85fc458</elementGuidId>
+   <elementGuidId>9b8fea52-1128-4448-bdcd-a9de8ba94b91</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

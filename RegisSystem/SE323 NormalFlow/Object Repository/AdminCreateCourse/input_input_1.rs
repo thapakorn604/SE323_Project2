@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input_1</name>
    <tag></tag>
-   <elementGuidId>d96f8a93-f8e3-47fe-9ac6-47b13725750a</elementGuidId>
+   <elementGuidId>bacd9916-ed79-4560-9556-61e01fdfb7b8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,10 +28,17 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>e.g. Computer Programming</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/div[@class=&quot;section&quot;]/div[@class=&quot;column is-half is-offset-one-quarter&quot;]/div[@class=&quot;card is-padding&quot;]/div[@class=&quot;container is-fluid&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

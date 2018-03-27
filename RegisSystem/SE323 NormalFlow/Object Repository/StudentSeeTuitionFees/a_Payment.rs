@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Payment</name>
    <tag></tag>
-   <elementGuidId>b721cc07-a4b6-4c69-8458-be82b2c20a3f</elementGuidId>
+   <elementGuidId>81c74b73-1624-414a-896f-9449f1b26a54</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Withdraw</name>
    <tag></tag>
-   <elementGuidId>9ee82311-2ead-431e-b037-992a18a7a26f</elementGuidId>
+   <elementGuidId>2c6dff70-6ae3-4e4f-9a4f-bd67eafcf275</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,6 +32,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;column&quot;]/div[@class=&quot;box&quot;]/table[@class=&quot;table&quot;]/tr[1]/td[8]/button[@class=&quot;button is-danger&quot;]</value>
+      <value>id(&quot;c7&quot;)/td[8]/button[@class=&quot;button is-danger&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

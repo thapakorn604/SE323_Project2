@@ -24,23 +24,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/')
 
-WebUI.setText(findTestObject('StudentEnrollCourse/input_input'), 'thanawat_lukuan@cmu.ac.th')
+WebUI.setText(findTestObject('AdminLogin/input_input'), 'student')
 
-WebUI.setText(findTestObject('StudentEnrollCourse/input_input_1'), '1234')
+WebUI.setText(findTestObject('AdminLogin/input_input_1'), 'student')
 
-WebUI.click(findTestObject('StudentEnrollCourse/button_Sign in'))
+WebUI.click(findTestObject('AdminLogin/button_Sign in'))
 
-url = WebUI.getUrl()
+String url = WebUI.getUrl()
 
 WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/index', false)
-
-WebUI.click(findTestObject('StudentEnrollCourse/a_Enroll Courses'))
-
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll', false)
-
-WebUI.click(findTestObject('StudentEnrollCourse/button_ADD'))
 
 WebUI.closeBrowser()
 

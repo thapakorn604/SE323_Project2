@@ -30,7 +30,7 @@ WebUI.setText(findTestObject('Page_React App (4)/input_input_1'), 'admin')
 
 WebUI.click(findTestObject('Page_React App (4)/button_Sign in'))
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin')
+WebUI.dismissAlert()
 
 WebUI.closeBrowser()
 

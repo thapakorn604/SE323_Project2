@@ -30,6 +30,8 @@ WebUI.setText(findTestObject('Page_React App (3)/input_input_1'), 'student')
 
 WebUI.click(findTestObject('Page_React App (3)/button_Sign in'))
 
+WebUI.dismissAlert()
+
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com')
 
 WebUI.closeBrowser()

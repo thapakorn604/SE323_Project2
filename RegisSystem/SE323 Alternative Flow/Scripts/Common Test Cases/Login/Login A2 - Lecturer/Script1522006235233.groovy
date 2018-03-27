@@ -32,7 +32,7 @@ WebUI.selectOptionByValue(findTestObject('Page_React App (1)/select'), 'Lecturer
 
 WebUI.click(findTestObject('Page_React App (1)/button_Sign in'))
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com')
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

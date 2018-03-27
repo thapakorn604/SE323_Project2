@@ -22,13 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer')
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer/index')
 
 WebUI.click(findTestObject('Page_React App (17)/a_Grading'))
 
 WebUI.setText(findTestObject('Page_React App (17)/input_input_2'), '80')
 
 WebUI.click(findTestObject('Page_React App (17)/button_Save All'))
+
+WebUI.acceptAlert()
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading')
 

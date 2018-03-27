@@ -22,11 +22,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin')
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/index')
 
 WebUI.click(findTestObject('Page_React App (18)/button_Log out'))
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/index')
+'Dismiss the Alert'
+WebUI.dismissAlert()
 
 WebUI.closeBrowser()
 

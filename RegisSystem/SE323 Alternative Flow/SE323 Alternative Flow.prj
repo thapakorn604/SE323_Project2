@@ -4,5 +4,5 @@
    <name>SE323 Alternative Flow</name>
    <tag></tag>
    <UUID>91b1bfb1-bab7-4401-90d7-d2e53efe6b97</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

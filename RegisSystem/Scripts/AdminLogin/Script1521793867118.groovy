@@ -24,9 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin')
 
-WebUI.setText(findTestObject('LecturerLogin/input_input'), '582115001')
+WebUI.setText(findTestObject('LecturerLogin/input_input'), 'admin')
 
-WebUI.setText(findTestObject('LecturerLogin/input_input_1'), '1234')
+WebUI.setText(findTestObject('LecturerLogin/input_input_1'), 'admin')
 
 WebUI.click(findTestObject('LecturerLogin/button_Sign in'))
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input_1</name>
    <tag></tag>
-   <elementGuidId>7d3731f8-9f66-45d8-8eba-f10b3f30a4ab</elementGuidId>
+   <elementGuidId>46636a4a-a338-4539-86be-ac553ec17e45</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -26,6 +26,13 @@
       <name>class</name>
       <type>Main</type>
       <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>s</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

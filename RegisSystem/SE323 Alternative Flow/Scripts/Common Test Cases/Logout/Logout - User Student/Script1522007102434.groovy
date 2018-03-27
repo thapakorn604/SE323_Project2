@@ -26,7 +26,7 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/
 
 WebUI.click(findTestObject('Page_React App (7)/button_Log out'))
 
-WebUI.dismissAlert()
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/index')
 
 WebUI.closeBrowser()
 

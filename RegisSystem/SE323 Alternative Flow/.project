@@ -161,11 +161,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
 			<id>1522130731296</id>
-=======
-			<id>1522131148824</id>
->>>>>>> 41b342ef35fc7b08d5abbe41c09ad8ff15debf98
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -174,11 +170,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
 			<id>1522130731301</id>
-=======
-			<id>1522131148844</id>
->>>>>>> 41b342ef35fc7b08d5abbe41c09ad8ff15debf98
 			<name></name>
 			<type>6</type>
 			<matcher>

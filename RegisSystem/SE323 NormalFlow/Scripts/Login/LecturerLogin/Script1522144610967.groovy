@@ -24,15 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/')
 
-WebUI.setText(findTestObject('AdminLogin/input_input'), 'student')
+WebUI.setText(findTestObject('LecturerLogin/input_input'), 'lecturer')
 
-WebUI.setText(findTestObject('AdminLogin/input_input_1'), 'student')
+WebUI.setText(findTestObject('LecturerLogin/input_input_1'), 'lecturer')
 
-WebUI.click(findTestObject('AdminLogin/button_Sign in'))
+WebUI.selectOptionByValue(findTestObject('LecturerLogin/select_StudentLecturer'), 'Lecturer', true)
 
-String url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/index', false)
+WebUI.click(findTestObject('LecturerLogin/button_Sign in'))
 
 WebUI.closeBrowser()
 

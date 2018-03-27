@@ -22,25 +22,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/')
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/index')
 
-WebUI.setText(findTestObject('LecturerLogout/input_input'), 'Noppon_coosri@cmu.ac.th')
+WebUI.click(findTestObject('AdminLogout/button_Log out'))
 
-WebUI.setText(findTestObject('LecturerLogout/input_input_1'), '123456789')
-
-WebUI.selectOptionByValue(findTestObject('LecturerLogout/select_StudentLecturer'), 'Lecturer', true)
-
-WebUI.click(findTestObject('LecturerLogout/button_Sign in'))
-
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index', false)
-
-WebUI.click(findTestObject('LecturerLogout/button_Log out'))
-
-url = WebUI.getUrl()
-
-WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/', false)
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

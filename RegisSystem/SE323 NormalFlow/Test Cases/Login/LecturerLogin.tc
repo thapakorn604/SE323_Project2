@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AdminLogin</name>
+   <name>LecturerLogin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fa940f3f-4f83-46e2-9c1a-b93f8b7afed8</testCaseGuid>
+   <testCaseGuid>9356e920-3147-45e1-982a-bb59e64fb2e0</testCaseGuid>
 </TestCaseEntity>

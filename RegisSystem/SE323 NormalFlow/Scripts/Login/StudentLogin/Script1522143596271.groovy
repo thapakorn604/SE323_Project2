@@ -24,17 +24,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/')
 
-WebUI.setText(findTestObject('StudentLogin/input_input'), 'Noppon_coosri@cmu.ac.th')
+WebUI.setText(findTestObject('StudentLogin/input_input'), 'student')
 
-WebUI.setText(findTestObject('StudentLogin/input_input_1'), '123456789')
-
-WebUI.selectOptionByValue(findTestObject('StudentLogin/select_StudentLecturer'), 'Lecturer', true)
+WebUI.setText(findTestObject('StudentLogin/input_input_1'), 'student')
 
 WebUI.click(findTestObject('StudentLogin/button_Sign in'))
 
-url = WebUI.getUrl()
+WebUI.closeBrowser()
 
-WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index', false)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/')
+
+WebUI.setText(findTestObject('LecturerLogin/input_input'), 'lecturer')
+
+WebUI.setText(findTestObject('LecturerLogin/input_input_1'), 'lecturer')
+
+WebUI.selectOptionByValue(findTestObject('LecturerLogin/select_StudentLecturer'), 'Lecturer', true)
+
+WebUI.click(findTestObject('LecturerLogin/button_Sign in'))
 
 WebUI.closeBrowser()
 

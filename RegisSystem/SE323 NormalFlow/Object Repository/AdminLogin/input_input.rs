@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input</name>
    <tag></tag>
-   <elementGuidId>8909e0cb-3583-4066-9fd1-25d29dd65b75</elementGuidId>
+   <elementGuidId>1a62a10d-4d02-4ea1-a409-feb120df78c1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,11 +28,18 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>e-mail e.g. xxx@cmu.ac.th</value>
+      <value>Admin ID e.g.582115015</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

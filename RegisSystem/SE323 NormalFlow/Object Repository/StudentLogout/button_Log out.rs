@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Log out</name>
    <tag></tag>
-   <elementGuidId>f5ace2c7-4a56-422f-8e18-9401d494519f</elementGuidId>
+   <elementGuidId>a42cc265-706b-43f9-972b-9550d792e1bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AdminLogin</name>
+   <name>AdminLogout</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fa940f3f-4f83-46e2-9c1a-b93f8b7afed8</testCaseGuid>
+   <testCaseGuid>48506a88-e68d-4c3e-9b5b-8ee669a07769</testCaseGuid>
 </TestCaseEntity>

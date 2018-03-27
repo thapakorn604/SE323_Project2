@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input</name>
    <tag></tag>
-   <elementGuidId>56285c48-5085-4950-825e-6a53012b465f</elementGuidId>
+   <elementGuidId>9074c6c6-a05d-4c90-8196-dc85a854ad04</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,11 +28,18 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>l</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Admin ID e.g.582115015</value>
+      <value>username e.g.studentacc</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

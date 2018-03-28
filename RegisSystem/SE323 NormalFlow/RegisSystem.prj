@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>RegisSystem</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>4d135bcf-c56a-43aa-b629-cad5ce7540b8</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

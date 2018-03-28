@@ -22,29 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/index')
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/index')
 
-WebUI.click(findTestObject('AdminCreateCourse/a_Add Course'))
+WebUI.click(findTestObject('StudentSearchCoursebyid/a_Enroll Courses'))
 
-WebUI.setText(findTestObject('AdminCreateCourse/input_input'), '953234')
+WebUI.setText(findTestObject('StudentSearchCoursebyid/input_input'), '953234')
 
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_1'), 'Computer Programming')
-
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_2'), 'Thanawat Lukuan')
-
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_3'), '50')
-
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_4'), '3')
-
-WebUI.click(findTestObject('AdminCreateCourse/input'))
-
-WebUI.selectOptionByValue(findTestObject('Page_React App/select_125602256032560Only 122'), '2/2560', true)
-
-WebUI.click(findTestObject('AdminCreateCourse/button_Submit'))
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
+WebUI.click(findTestObject('StudentSearchCoursebyid/button_Search'))
 
 WebUI.closeBrowser()
 

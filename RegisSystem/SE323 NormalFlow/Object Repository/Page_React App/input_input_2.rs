@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_input</name>
+   <name>input_input_2</name>
    <tag></tag>
-   <elementGuidId>697003e8-597d-4be2-96af-7ac3d093b1ee</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;][count(. | //input[@type = 'number' and @placeholder = 'e.g 953234']) = count(//input[@type = 'number' and @placeholder = 'e.g 953234'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>704e9b4b-0cc8-4a5d-a082-00d8ffbd79ab</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -24,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,13 +32,13 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>e.g 953234</value>
+      <value>e.g. Thapakorn Tuwaemuesa,Thanawat Lukuan</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
+      <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-7&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

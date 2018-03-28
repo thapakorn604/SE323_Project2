@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Withdraw</name>
+   <name>a_Enroll Courses</name>
    <tag></tag>
-   <elementGuidId>2c6dff70-6ae3-4e4f-9a4f-bd67eafcf275</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;c7&quot;)/td[8]/button[@class=&quot;button is-danger&quot;][count(. | //button[(text() = 'Withdraw' or . = 'Withdraw')]) = count(//button[(text() = 'Withdraw' or . = 'Withdraw')])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>da3fe74c-751e-4f2f-b078-2c241615ddae</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,27 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>button is-danger</value>
+      <value>navbar-item</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-current</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/student/enroll</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Withdraw</value>
+      <value>Enroll Courses</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;c7&quot;)/td[8]/button[@class=&quot;button is-danger&quot;]</value>
+      <value>id(&quot;menu&quot;)/div[@class=&quot;navbar-start&quot;]/a[@class=&quot;navbar-item&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

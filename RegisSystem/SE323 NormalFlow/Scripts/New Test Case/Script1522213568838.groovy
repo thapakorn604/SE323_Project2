@@ -24,27 +24,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/index')
 
-WebUI.click(findTestObject('AdminCreateCourse/a_Add Course'))
+WebUI.click(findTestObject('Page_React App/a_Add Course'))
 
-WebUI.setText(findTestObject('AdminCreateCourse/input_input'), '953234')
+WebUI.setText(findTestObject('Page_React App/input_input (2)'), '938')
 
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_1'), 'Computer Programming')
+WebUI.setText(findTestObject('Page_React App/input_input (2)'), '938495')
 
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_2'), 'Thanawat Lukuan')
+WebUI.setText(findTestObject('Page_React App/input_input_1'), '4353sdfv')
 
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_3'), '50')
+WebUI.setText(findTestObject('Page_React App/input_input_2'), 'sdfdsf')
 
-WebUI.setText(findTestObject('AdminCreateCourse/input_input_4'), '3')
+WebUI.setText(findTestObject('Page_React App/input_input_3'), '13')
 
-WebUI.click(findTestObject('AdminCreateCourse/input'))
+WebUI.setText(findTestObject('Page_React App/input_input_4'), '2')
+
+WebUI.click(findTestObject('Page_React App/input'))
+
+WebUI.click(findTestObject('Page_React App/input'))
 
 WebUI.selectOptionByValue(findTestObject('Page_React App/select_125602256032560Only 122'), '2/2560', true)
 
-WebUI.click(findTestObject('AdminCreateCourse/button_Submit'))
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Page_React App/button_Submit'))
 
 WebUI.closeBrowser()
 

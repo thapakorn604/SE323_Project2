@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_input</name>
+   <name>input_input (2)</name>
    <tag></tag>
-   <elementGuidId>697003e8-597d-4be2-96af-7ac3d093b1ee</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;root&quot;)/div[1]/div[1]/section[@class=&quot;section&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;columns&quot;]/div[@class=&quot;column is-4&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;control&quot;]/input[@class=&quot;input&quot;][count(. | //input[@type = 'number' and @placeholder = 'e.g 953234']) = count(//input[@type = 'number' and @placeholder = 'e.g 953234'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>8c0a5b3c-fe67-4d3f-9dc7-ec92a1572034</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -41,7 +35,7 @@
       <value>e.g 953234</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

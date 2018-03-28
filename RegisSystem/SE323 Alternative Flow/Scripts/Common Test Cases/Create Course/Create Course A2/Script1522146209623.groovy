@@ -34,9 +34,9 @@ WebUI.click(findTestObject('Create Course A2/input'))
 
 WebUI.click(findTestObject('Create Course A2/input'))
 
-WebUI.setText(findTestObject('Create Course A2/input_input_3'), '3')
-
 WebUI.setText(findTestObject('Create Course A2/input_input_4'), '40')
+
+WebUI.setText(findTestObject('Create Course A2/input_input_3'), '3')
 
 WebUI.click(findTestObject('Create Course A2/button_Submit'))
 

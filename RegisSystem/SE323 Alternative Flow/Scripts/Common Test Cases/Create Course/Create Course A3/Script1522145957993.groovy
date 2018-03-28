@@ -24,10 +24,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse')
 
-WebUI.setText(findTestObject('Create Course A3/input_input'), '953211')
-
-WebUI.click(findTestObject('Create Course A3/section_section'))
-
 WebUI.setText(findTestObject('Create Course A3/input_input'), '207110')
 
 WebUI.setText(findTestObject('Create Course A3/input_input_1'), 'Physics:Scince that change the world')

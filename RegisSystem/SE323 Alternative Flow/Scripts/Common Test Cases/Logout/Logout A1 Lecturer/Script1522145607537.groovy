@@ -26,5 +26,7 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer
 
 WebUI.click(findTestObject('Logout A1 Lecturer/button_Log out'))
 
+WebUI.dismissAlert()
+
 WebUI.closeBrowser()
 

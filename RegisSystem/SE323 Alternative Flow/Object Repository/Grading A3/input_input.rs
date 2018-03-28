@@ -3,7 +3,7 @@
    <description></description>
    <name>input_input</name>
    <tag></tag>
-   <elementGuidId>39bd4fca-e25b-4ad2-a29c-e3894a343c0d</elementGuidId>
+   <elementGuidId>772ad99d-20bd-4c19-8410-c08a01107bdc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

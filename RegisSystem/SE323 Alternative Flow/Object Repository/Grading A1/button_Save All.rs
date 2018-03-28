@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Save All</name>
    <tag></tag>
-   <elementGuidId>872488a7-ff25-4e66-b09b-e2d8932aa9b3</elementGuidId>
+   <elementGuidId>3e4be237-6286-4ac5-a6f8-cf8c7e6f672d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

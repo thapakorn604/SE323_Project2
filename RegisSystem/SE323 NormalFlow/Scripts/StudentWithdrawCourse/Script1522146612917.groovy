@@ -22,11 +22,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/index')
+WebUI.navigateToUrl('http://localhost:3000/student/index')
 
 WebUI.click(findTestObject('StudentWithdrawCourse/button_Withdraw'))
-
-WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

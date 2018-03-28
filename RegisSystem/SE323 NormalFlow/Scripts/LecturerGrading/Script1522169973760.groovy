@@ -22,33 +22,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading')
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer/index')
 
-WebUI.setText(findTestObject('LecturerGrading/input_input'), '60')
+WebUI.click(findTestObject('LecturerGrading/a_Grading'))
 
-WebUI.click(findTestObject('LecturerGrading/button_Save'))
-
-WebUI.acceptAlert()
-
-WebUI.setText(findTestObject('LecturerGrading/input_input'), '70')
+WebUI.setText(findTestObject('LecturerGrading/input_input'), 'A')
 
 WebUI.click(findTestObject('LecturerGrading/button_Save'))
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('LecturerGrading/input_input'), '80')
+WebUI.setText(findTestObject('LecturerGrading/input_input'), 'B')
 
 WebUI.click(findTestObject('LecturerGrading/button_Save'))
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('LecturerGrading/input_input'), '90')
+WebUI.setText(findTestObject('LecturerGrading/input_input'), 'C')
 
 WebUI.click(findTestObject('LecturerGrading/button_Save'))
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('LecturerGrading/input_input'), '100')
+WebUI.setText(findTestObject('LecturerGrading/input_input'), 'D')
+
+WebUI.click(findTestObject('LecturerGrading/button_Save'))
+
+WebUI.acceptAlert()
+
+WebUI.setText(findTestObject('LecturerGrading/input_input'), 'F')
 
 WebUI.click(findTestObject('LecturerGrading/button_Save'))
 

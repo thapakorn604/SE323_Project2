@@ -30,5 +30,7 @@ WebUI.setText(findTestObject('Create Course A3/input_input_1'), 'Physics:Scince 
 
 WebUI.click(findTestObject('Create Course A3/button_Cancel'))
 
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/index')
+
 WebUI.closeBrowser()
 

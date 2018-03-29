@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="App Test" time="25" tests="8" failures="0" errors="0">
+   <testsuite name="App Test" tests="8" failures="0" errors="0" time="25" timestamp="2018-03-29 13:37:05" hostname="qliphoth - 10.80.131.9" id="Test Suites/App Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/qliphoth/Documents/GitHub/SE323_Project2/RegisSystem/SE323 NormalFlow/Reports/App Test/20180329_133702"/>
+         <property name="logFiles" value="/Users/qliphoth/Documents/GitHub/SE323_Project2/RegisSystem/SE323 NormalFlow/Reports/App Test/20180329_133702/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="qliphoth - 10.80.131.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.80.131.9"/>
+         <property name="sessionId" value="9baab9b82cccee473762afe301b2692f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/StudentEnrollCourse" classname="Test Cases/StudentEnrollCourse" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:06 - [TEST_CASE][PASSED] - Test Cases/StudentEnrollCourse: Test Cases/StudentEnrollCourse
+
+2018-03-29 13:37:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:10 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentEnrollCourse/a_Enroll Courses' is clicked on
+
+2018-03-29 13:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentEnrollCourse/a_Enroll Courses' is clicked on
+
+2018-03-29 13:37:11 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll'
+
+2018-03-29 13:37:11 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll'
+
+2018-03-29 13:37:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll' are matched 
+
+2018-03-29 13:37:11 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll' are matched 
+
+2018-03-29 13:37:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentEnrollCourse/button_ADD' is clicked on
+
+2018-03-29 13:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentEnrollCourse/button_ADD' is clicked on
+
+2018-03-29 13:37:11 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:11 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:11 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/index'
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/index'
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/index' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/index' are matched 
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/index' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/index' are matched 
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LecturerGrading" classname="Test Cases/LecturerGrading" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:12 - [TEST_CASE][PASSED] - Test Cases/LecturerGrading: Test Cases/LecturerGrading
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index' successfully
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index' successfully
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerGrading/a_Grading' is clicked on
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerGrading/a_Grading' is clicked on
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading'
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading'
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading' are matched 
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading' are matched 
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - setText: Text 'A' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Text 'A' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:16 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:16 - [TEST_STEP][PASSED] - setText: Text 'B' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:16 - [MESSAGE][PASSED] - Text 'B' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:16 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:16 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:16 - [TEST_STEP][PASSED] - setText: Text 'C' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:16 - [MESSAGE][PASSED] - Text 'C' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:17 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:17 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:17 - [TEST_STEP][PASSED] - setText: Text 'D' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:17 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:17 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:17 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:17 - [TEST_STEP][PASSED] - setText: Text 'F' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:18 - [MESSAGE][PASSED] - Text 'F' is set on object 'Object Repository/LecturerGrading/input_input'
+
+2018-03-29 13:37:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerGrading/button_Save' is clicked on
+
+2018-03-29 13:37:18 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:18 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudentSeeGradeSummary" classname="Test Cases/StudentSeeGradeSummary" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:18 - [TEST_CASE][PASSED] - Test Cases/StudentSeeGradeSummary: Test Cases/StudentSeeGradeSummary
+
+2018-03-29 13:37:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:20 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentSeeGradeSummary/a_My Transcript' is clicked on
+
+2018-03-29 13:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentSeeGradeSummary/a_My Transcript' is clicked on
+
+2018-03-29 13:37:20 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/transcript'
+
+2018-03-29 13:37:20 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/transcript'
+
+2018-03-29 13:37:20 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/transcript' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/transcript' are matched 
+
+2018-03-29 13:37:20 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/transcript' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/transcript' are matched 
+
+2018-03-29 13:37:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LecturerSeeCourseHistory" classname="Test Cases/LecturerSeeCourseHistory" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:20 - [TEST_CASE][PASSED] - Test Cases/LecturerSeeCourseHistory: Test Cases/LecturerSeeCourseHistory
+
+2018-03-29 13:37:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index' successfully
+
+2018-03-29 13:37:22 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index' successfully
+
+2018-03-29 13:37:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerSeeCourseHistory/a_History' is clicked on
+
+2018-03-29 13:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerSeeCourseHistory/a_History' is clicked on
+
+2018-03-29 13:37:22 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history'
+
+2018-03-29 13:37:22 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history'
+
+2018-03-29 13:37:22 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history' are matched 
+
+2018-03-29 13:37:22 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history' are matched 
+
+2018-03-29 13:37:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudentSearchCoursebyid" classname="Test Cases/StudentSearchCoursebyid" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:22 - [TEST_CASE][PASSED] - Test Cases/StudentSearchCoursebyid: Test Cases/StudentSearchCoursebyid
+
+2018-03-29 13:37:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:23 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentSearchCoursebyid/a_Enroll Courses' is clicked on
+
+2018-03-29 13:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentSearchCoursebyid/a_Enroll Courses' is clicked on
+
+2018-03-29 13:37:23 - [TEST_STEP][PASSED] - setText: Text '953234' is set on object 'Object Repository/StudentSearchCoursebyid/input_input'
+
+2018-03-29 13:37:24 - [MESSAGE][PASSED] - Text '953234' is set on object 'Object Repository/StudentSearchCoursebyid/input_input'
+
+2018-03-29 13:37:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentSearchCoursebyid/button_Search' is clicked on
+
+2018-03-29 13:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentSearchCoursebyid/button_Search' is clicked on
+
+2018-03-29 13:37:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_React App (1)/td_953234' are matched.
+
+2018-03-29 13:37:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_React App (1)/td_953234' are matched.
+
+2018-03-29 13:37:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudentWithdrawCourse" classname="Test Cases/StudentWithdrawCourse" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:24 - [TEST_CASE][PASSED] - Test Cases/StudentWithdrawCourse: Test Cases/StudentWithdrawCourse
+
+2018-03-29 13:37:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:25 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentWithdrawCourse/button_Withdraw' is clicked on
+
+2018-03-29 13:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentWithdrawCourse/button_Withdraw' is clicked on
+
+2018-03-29 13:37:26 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:26 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:26 - [TEST_STEP][PASSED] - verifyElementNotInViewport: Object 'Object Repository/Page_React App (1)/td_Tennis for Life and Exercis' is present and NOT visible in viewport
+
+2018-03-29 13:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-29 13:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_React App (1)/td_Tennis for Life and Exercis' is present and NOT visible in viewport
+
+2018-03-29 13:37:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudentSeeTuitionFees" classname="Test Cases/StudentSeeTuitionFees" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:26 - [TEST_CASE][PASSED] - Test Cases/StudentSeeTuitionFees: Test Cases/StudentSeeTuitionFees
+
+2018-03-29 13:37:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:27 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentSeeTuitionFees/a_Payment' is clicked on
+
+2018-03-29 13:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentSeeTuitionFees/a_Payment' is clicked on
+
+2018-03-29 13:37:27 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/payment'
+
+2018-03-29 13:37:28 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/student/payment'
+
+2018-03-29 13:37:28 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/payment' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/payment' are matched 
+
+2018-03-29 13:37:28 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/student/payment' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/student/payment' are matched 
+
+2018-03-29 13:37:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AdminCreateCourse" classname="Test Cases/AdminCreateCourse" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:28 - [TEST_CASE][PASSED] - Test Cases/AdminCreateCourse: Test Cases/AdminCreateCourse
+
+2018-03-29 13:37:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/admin/index' successfully
+
+2018-03-29 13:37:29 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/admin/index' successfully
+
+2018-03-29 13:37:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminCreateCourse/a_Add Course' is clicked on
+
+2018-03-29 13:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminCreateCourse/a_Add Course' is clicked on
+
+2018-03-29 13:37:29 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse'
+
+2018-03-29 13:37:29 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse'
+
+2018-03-29 13:37:29 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse' are matched 
+
+2018-03-29 13:37:29 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse' are matched 
+
+2018-03-29 13:37:29 - [TEST_STEP][PASSED] - setText: Text '953234' is set on object 'Object Repository/AdminCreateCourse/input_input'
+
+2018-03-29 13:37:29 - [MESSAGE][PASSED] - Text '953234' is set on object 'Object Repository/AdminCreateCourse/input_input'
+
+2018-03-29 13:37:29 - [TEST_STEP][PASSED] - setText: Text 'Computer Programming' is set on object 'Object Repository/AdminCreateCourse/input_input_1'
+
+2018-03-29 13:37:29 - [MESSAGE][PASSED] - Text 'Computer Programming' is set on object 'Object Repository/AdminCreateCourse/input_input_1'
+
+2018-03-29 13:37:29 - [TEST_STEP][PASSED] - setText: Text 'Thanawat Lukuan' is set on object 'Object Repository/AdminCreateCourse/input_input_2'
+
+2018-03-29 13:37:29 - [MESSAGE][PASSED] - Text 'Thanawat Lukuan' is set on object 'Object Repository/AdminCreateCourse/input_input_2'
+
+2018-03-29 13:37:29 - [TEST_STEP][PASSED] - setText: Text '50' is set on object 'Object Repository/AdminCreateCourse/input_input_3'
+
+2018-03-29 13:37:30 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/AdminCreateCourse/input_input_3'
+
+2018-03-29 13:37:30 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/AdminCreateCourse/input_input_4'
+
+2018-03-29 13:37:30 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/AdminCreateCourse/input_input_4'
+
+2018-03-29 13:37:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminCreateCourse/input' is clicked on
+
+2018-03-29 13:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminCreateCourse/input' is clicked on
+
+2018-03-29 13:37:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2/2560' are selected in object 'Object Repository/Page_React App/select_125602256032560Only 122'  using regular expression
+
+2018-03-29 13:37:30 - [MESSAGE][PASSED] - All options with value '2/2560' are selected in object 'Object Repository/Page_React App/select_125602256032560Only 122'  using regular expression
+
+2018-03-29 13:37:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminCreateCourse/button_Submit' is clicked on
+
+2018-03-29 13:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminCreateCourse/button_Submit' is clicked on
+
+2018-03-29 13:37:30 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:30 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:30 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:31 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-29 13:37:05 - [TEST_SUITE][PASSED] - App Test: Test Cases/AdminCreateCourse]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

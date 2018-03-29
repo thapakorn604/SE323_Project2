@@ -28,5 +28,9 @@ WebUI.click(findTestObject('AdminLogout/button_Log out'))
 
 WebUI.acceptAlert()
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/admin', false)
+
 WebUI.closeBrowser()
 

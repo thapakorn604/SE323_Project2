@@ -30,5 +30,7 @@ WebUI.setText(findTestObject('StudentSearchCoursebyid/input_input'), '953234')
 
 WebUI.click(findTestObject('StudentSearchCoursebyid/button_Search'))
 
+WebUI.verifyElementText(findTestObject('Page_React App (1)/td_953234'), 'Programming Methodology')
+
 WebUI.closeBrowser()
 

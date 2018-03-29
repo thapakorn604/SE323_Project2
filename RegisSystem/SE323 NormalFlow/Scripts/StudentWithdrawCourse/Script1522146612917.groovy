@@ -22,9 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:3000/student/index')
+WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/index')
 
 WebUI.click(findTestObject('StudentWithdrawCourse/button_Withdraw'))
+
+WebUI.acceptAlert()
+
+WebUI.verifyElementNotInViewport(findTestObject('Page_React App (1)/td_Tennis for Life and Exercis'), 0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

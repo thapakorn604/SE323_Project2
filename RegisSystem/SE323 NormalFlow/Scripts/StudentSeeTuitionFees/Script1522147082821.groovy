@@ -26,5 +26,9 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/
 
 WebUI.click(findTestObject('StudentSeeTuitionFees/a_Payment'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/payment', false)
+
 WebUI.closeBrowser()
 

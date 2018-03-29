@@ -26,6 +26,10 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/admin/in
 
 WebUI.click(findTestObject('AdminCreateCourse/a_Add Course'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/admin/addcourse', false)
+
 WebUI.setText(findTestObject('AdminCreateCourse/input_input'), '953234')
 
 WebUI.setText(findTestObject('AdminCreateCourse/input_input_1'), 'Computer Programming')

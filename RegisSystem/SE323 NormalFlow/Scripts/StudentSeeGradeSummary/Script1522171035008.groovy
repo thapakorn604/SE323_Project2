@@ -26,5 +26,9 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/
 
 WebUI.click(findTestObject('StudentSeeGradeSummary/a_My Transcript'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/transcript', false)
+
 WebUI.closeBrowser()
 

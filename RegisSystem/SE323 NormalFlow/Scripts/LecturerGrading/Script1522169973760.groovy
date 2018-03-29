@@ -26,6 +26,10 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer
 
 WebUI.click(findTestObject('LecturerGrading/a_Grading'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/grading', false)
+
 WebUI.setText(findTestObject('LecturerGrading/input_input'), 'A')
 
 WebUI.click(findTestObject('LecturerGrading/button_Save'))

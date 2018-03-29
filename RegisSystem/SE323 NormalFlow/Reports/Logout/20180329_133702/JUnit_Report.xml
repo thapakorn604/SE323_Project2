@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logout" time="13" tests="3" failures="0" errors="0">
+   <testsuite name="Logout" tests="3" failures="0" errors="0" time="13" timestamp="2018-03-29 13:37:05" hostname="qliphoth - 10.80.131.9" id="Test Suites/Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/qliphoth/Documents/GitHub/SE323_Project2/RegisSystem/SE323 NormalFlow/Reports/Logout/20180329_133702"/>
+         <property name="logFiles" value="/Users/qliphoth/Documents/GitHub/SE323_Project2/RegisSystem/SE323 NormalFlow/Reports/Logout/20180329_133702/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="qliphoth - 10.80.131.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.80.131.9"/>
+         <property name="sessionId" value="e57bd98224f4a9b84b400bb41d0e103a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Logout/StudentLogout" classname="Test Cases/Logout/StudentLogout" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:06 - [TEST_CASE][PASSED] - Test Cases/Logout/StudentLogout: Test Cases/Logout/StudentLogout
+
+2018-03-29 13:37:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:11 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/student/index' successfully
+
+2018-03-29 13:37:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/StudentLogout/button_Log out' is clicked on
+
+2018-03-29 13:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/StudentLogout/button_Log out' is clicked on
+
+2018-03-29 13:37:11 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/'
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/'
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/' are matched 
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/' are matched 
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/AdminLogout" classname="Test Cases/Logout/AdminLogout" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:12 - [TEST_CASE][PASSED] - Test Cases/Logout/AdminLogout: Test Cases/Logout/AdminLogout
+
+2018-03-29 13:37:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/admin/index' successfully
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/admin/index' successfully
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AdminLogout/button_Log out' is clicked on
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AdminLogout/button_Log out' is clicked on
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/admin'
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/admin'
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/admin' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/admin' are matched 
+
+2018-03-29 13:37:15 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/admin' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/admin' are matched 
+
+2018-03-29 13:37:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/LecturerLogout" classname="Test Cases/Logout/LecturerLogout" status="PASSED">
+         <system-out><![CDATA[2018-03-29 13:37:16 - [TEST_CASE][PASSED] - Test Cases/Logout/LecturerLogout: Test Cases/Logout/LecturerLogout
+
+2018-03-29 13:37:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 13:37:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 13:37:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index' successfully
+
+2018-03-29 13:37:18 - [MESSAGE][PASSED] - Navigate to 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/index' successfully
+
+2018-03-29 13:37:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LecturerLogout/button_Log out' is clicked on
+
+2018-03-29 13:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LecturerLogout/button_Log out' is clicked on
+
+2018-03-29 13:37:18 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-03-29 13:37:18 - [MESSAGE][PASSED] - Alert accepted
+
+2018-03-29 13:37:18 - [TEST_STEP][PASSED] - Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/'
+
+2018-03-29 13:37:19 - [MESSAGE][PASSED] - Current window's url is: 'https://se323project1-regis-mockup.firebaseapp.com/'
+
+2018-03-29 13:37:19 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://se323project1-regis-mockup.firebaseapp.com/' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/' are matched 
+
+2018-03-29 13:37:19 - [MESSAGE][PASSED] - Actual text 'https://se323project1-regis-mockup.firebaseapp.com/' and expected text 'https://se323project1-regis-mockup.firebaseapp.com/' are matched 
+
+2018-03-29 13:37:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 13:37:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-29 13:37:05 - [TEST_SUITE][PASSED] - Logout: Test Cases/Logout/LecturerLogout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

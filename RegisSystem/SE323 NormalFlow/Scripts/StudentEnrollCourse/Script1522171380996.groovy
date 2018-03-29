@@ -26,11 +26,19 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/student/
 
 WebUI.click(findTestObject('StudentEnrollCourse/a_Enroll Courses'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/enroll', false)
+
 WebUI.click(findTestObject('StudentEnrollCourse/button_ADD'))
 
 WebUI.acceptAlert()
 
 WebUI.acceptAlert()
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/index', false)
 
 WebUI.closeBrowser()
 

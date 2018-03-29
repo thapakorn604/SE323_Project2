@@ -26,5 +26,9 @@ WebUI.navigateToUrl('https://se323project1-regis-mockup.firebaseapp.com/lecturer
 
 WebUI.click(findTestObject('LecturerSeeCourseHistory/a_History'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/lecturer/history', false)
+
 WebUI.closeBrowser()
 

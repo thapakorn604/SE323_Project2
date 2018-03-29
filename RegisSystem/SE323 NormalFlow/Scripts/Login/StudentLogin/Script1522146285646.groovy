@@ -30,5 +30,9 @@ WebUI.setText(findTestObject('StudentLogin/input_input_1'), 'student')
 
 WebUI.click(findTestObject('StudentLogin/button_Sign in'))
 
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://se323project1-regis-mockup.firebaseapp.com/student/index', false)
+
 WebUI.closeBrowser()
 

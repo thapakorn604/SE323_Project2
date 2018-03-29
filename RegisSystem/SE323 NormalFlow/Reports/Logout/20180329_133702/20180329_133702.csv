@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Logout,Chrome 65.0.3325.181,,2018-03-29 13:37:05,2018-03-29 13:37:19,13.807s,PASSED
+,,,,,,
+Test Cases/Logout/StudentLogout,Chrome 65.0.3325.181,,2018-03-29 13:37:06,2018-03-29 13:37:12,6.458s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-29 13:37:06,2018-03-29 13:37:10,3.970s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-29 13:37:10,2018-03-29 13:37:11,0.857s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-29 13:37:11,2018-03-29 13:37:11,0.373s,PASSED
+acceptAlert,Chrome 65.0.3325.181,,2018-03-29 13:37:11,2018-03-29 13:37:12,0.331s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 65.0.3325.181,,2018-03-29 13:37:12,2018-03-29 13:37:12,0.323s,PASSED
+verifyMatch,Chrome 65.0.3325.181,,2018-03-29 13:37:12,2018-03-29 13:37:12,0.029s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-29 13:37:12,2018-03-29 13:37:12,0.112s,PASSED
+,,,,,,
+Test Cases/Logout/AdminLogout,Chrome 65.0.3325.181,,2018-03-29 13:37:12,2018-03-29 13:37:16,3.430s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-29 13:37:12,2018-03-29 13:37:14,1.485s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-29 13:37:14,2018-03-29 13:37:15,0.901s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-29 13:37:15,2018-03-29 13:37:15,0.354s,PASSED
+acceptAlert,Chrome 65.0.3325.181,,2018-03-29 13:37:15,2018-03-29 13:37:15,0.247s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 65.0.3325.181,,2018-03-29 13:37:15,2018-03-29 13:37:15,0.210s,PASSED
+verifyMatch,Chrome 65.0.3325.181,,2018-03-29 13:37:15,2018-03-29 13:37:15,0.004s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-29 13:37:15,2018-03-29 13:37:16,0.089s,PASSED
+,,,,,,
+Test Cases/Logout/LecturerLogout,Chrome 65.0.3325.181,,2018-03-29 13:37:16,2018-03-29 13:37:19,3.202s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-29 13:37:16,2018-03-29 13:37:17,1.372s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-29 13:37:17,2018-03-29 13:37:18,0.639s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-29 13:37:18,2018-03-29 13:37:18,0.327s,PASSED
+acceptAlert,Chrome 65.0.3325.181,,2018-03-29 13:37:18,2018-03-29 13:37:18,0.259s,PASSED
+Statement - url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 65.0.3325.181,,2018-03-29 13:37:18,2018-03-29 13:37:19,0.315s,PASSED
+verifyMatch,Chrome 65.0.3325.181,,2018-03-29 13:37:19,2018-03-29 13:37:19,0.001s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-29 13:37:19,2018-03-29 13:37:19,0.093s,PASSED
